@@ -1,21 +1,23 @@
 from distutils.core import setup
-setup(
-    name='postbode-python',
-    packages=['postbode-python'],
-    version='0.1',
-    license='MIT',
-    description='Postbode.nu api wrapper for python',
-    author='Jeffrey Hagenstein',
-    author_email='jeffrey@hef-it.nl',
-    # Provide either the link to your github or to your website
-    url='https://github.com/user/reponame',
-    # I explain this later on
-    download_url='https://github.com/user/reponame/archive/v_01.tar.gz',
-    keywords=['postnode', 'api', 'mail', 'postal'],
-    install_requires=[
-        # TODO
-    ],
+import setuptools
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="postbode-python-JeffreyHagenstein",  # Replace with your own username
+    version="0.0.1",
+    author="Jeffrey Hagenstein",
+    author_email="jdhagenstein@gmail.com",
+    description="Python wrapper for api of http://www.postbode.nu for sending postal mail.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/Heffie/postbode-python",
+    packages=setuptools.find_packages(),
     classifiers=[
-        # TODO
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
     ],
+    python_requires='>=3.6',
 )
