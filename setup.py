@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="postbode-python-JeffreyHagenstein",  # Replace with your own username
+    name="postbode-python",
     version="0.0.1",
     author="Jeffrey Hagenstein",
     author_email="jdhagenstein@gmail.com",

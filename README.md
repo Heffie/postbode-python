@@ -6,15 +6,19 @@ www.postbode.nu is a Dutch web application for digitally sending and receiving p
 For starters you will need a account and a api token.
 
 _Account creation_
+
 Go to http://app.postbode.nu and follow registration proces.
 
 _API token_
+
 After registration go to personal settings -> API and request a token.
 
 _Sandbox mode_
+
 For testing the api it is usefull to set the mailbox in sandbox mode. A dev mode sort of speak that will prefent any request to be send to production.
 
 _further reading_
+
 http://api.postbode.nu for more information about the letter and mailbox options
 
 Now you are set to go.
