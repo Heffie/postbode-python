@@ -8,7 +8,7 @@ requirements = ['requests==2.23.0']
 
 setuptools.setup(
     name="postbode-python",
-    version="0.0.1",
+    version="0.0.2",
     author="Jeffrey Hagenstein",
     author_email="jdhagenstein@gmail.com",
     description="Python wrapper for api of http://www.postbode.nu for sending postal mail.",
