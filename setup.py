@@ -4,6 +4,8 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+requirements = ['requests==2.23.0']
+
 setuptools.setup(
     name="postbode-python",
     version="0.0.1",
@@ -13,6 +15,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Heffie/postbode-python",
+    install_requires=requirements,
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
