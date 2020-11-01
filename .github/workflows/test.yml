@@ -1,8 +1,6 @@
 name: Release Python Package
-'on':
-  push:
-    tags:
-      - v*
+on: [push]
+
 jobs:
   build:
     name: Test release
