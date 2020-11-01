@@ -1,4 +1,5 @@
 venv
+.tox/
 .vscode
 *.pyc
 __pycache__/*
