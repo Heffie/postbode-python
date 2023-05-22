@@ -4,7 +4,7 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-requirements = ['requests==2.23.0']
+requirements = ['requests==2.31.0']
 
 setuptools.setup(
     name="postbode-python",
